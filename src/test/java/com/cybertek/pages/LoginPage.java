@@ -25,14 +25,11 @@ public class LoginPage {
     @FindBy(id = "prependedInput2")
     public WebElement passwordInput;
 
-    /*
+    /*@FindAll
      * if at least one of the locator is matching it will find the web element
      * OR logic
     */
-    @FindAll({
-            @FindBy(id = "_submit"),
-            @FindBy(name = "_submit")
-    })
+    @FindBy(id = "_submit")
     public WebElement loginBtn;
 
     public void login(String username,String password) {

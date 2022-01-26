@@ -7,11 +7,13 @@ import org.openqa.selenium.support.FindBy;
 
 public class ContactsPage extends BasePage{
 
-    //since we are extending BasePage we do not need explicit constructor for this class
-
     /*
+    since we are extending BasePage,
+    we do not need explicit constructor for this class
+
     @FindBy(xpath = "//td[contains(text(),'mbrackstone9@example.com')][@data-column-label='Email']")
     public WebElement email;
+    we need method in order to manipulate locator for dynamic WebElement
     */
 
     public WebElement getContactEmail(String email){
