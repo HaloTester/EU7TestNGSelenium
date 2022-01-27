@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Vytrack Automation" verbose="1">
+    <test name="Vytrack Smoke Test">
+        <packages>
+            <package name="com.cybertek.tests.day14_extentreports"></package>
+            <package name="com.cybertek.tests.day15_review"></package>
+        </packages>
+        <classes>
+            <class name="com.cybertek.tests.day13_pom.RepeatOptionsTests"></class>
+            <class name="com.cybertek.tests.day13_pom.PositiveLoginTest">
+                <methods>
+                    <include name="loginAsStoreManagerTest"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

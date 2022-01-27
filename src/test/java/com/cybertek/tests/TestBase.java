@@ -22,9 +22,9 @@ public class TestBase {
     protected WebDriver driver;
     protected Actions actions;
     protected WebDriverWait wait;
-    protected ExtentReports report;
-    protected ExtentHtmlReporter htmlReporter;
-    protected ExtentTest extentLogger;
+    protected static ExtentReports report;
+    protected static ExtentHtmlReporter htmlReporter;
+    protected static ExtentTest extentLogger;
 
     @BeforeMethod
     public void setUp() {
