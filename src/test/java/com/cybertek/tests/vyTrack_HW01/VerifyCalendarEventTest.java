@@ -71,7 +71,7 @@ public class VerifyCalendarEventTest extends TestBase {
         extentLogger.info("Verify that all calendar events were selected");
         CalendarEventsPage calendarEventsPage = new CalendarEventsPage();
         calendarEventsPage.waitUntilLoaderScreenDisappear();
-        Assert.assertEquals(calendarEventsPage.numberOfCalendarEventsRecord(),"47");
+        Assert.assertEquals(calendarEventsPage.numberOfCalendarEventsRecord(),"45");
         extentLogger.pass("PASSED");
     }
 
