@@ -73,6 +73,6 @@ public class TestBaseHW {
             extentLogger.fail(result.getThrowable());
         }
         Thread.sleep(2000);
-        driver.quit();
+        Driver.closeDriver();
     }
 }

@@ -33,7 +33,7 @@ public class TestBase {
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         actions = new Actions(driver);
         wait = new WebDriverWait(driver,10);
-        driver.get(ConfigurationReader.get("url"));
+        driver.get(ConfigurationReader.get("qa1_url"));
     }
 
     @AfterMethod
