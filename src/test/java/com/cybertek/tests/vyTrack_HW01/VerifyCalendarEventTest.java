@@ -23,7 +23,7 @@ public class VerifyCalendarEventTest extends TestBase {
         dashboardPage.navigateToModule("Activities","Calendar Events");
         extentLogger.info("Verify that page subtitle \"Options\" is displayed");
         CalendarEventsPage calendarEventsPage = new CalendarEventsPage();
-        Assert.assertEquals(calendarEventsPage.pageSubTitle.getText(),"Options");
+        Assert.assertTrue(calendarEventsPage.pageSubTitle.isDisplayed(),"Options Is Not Displayed");
         extentLogger.pass("PASSED");
     }
 
