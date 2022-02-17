@@ -11,7 +11,12 @@ public class ExcelUtilDemo {
 
     @Test
     public void readExcelFile(){
-
+        /*
+        Create an object from ExcelUtil
+        It accepts two arguments
+        Argument 1--> location of the file (path)
+        Argument 2--> Sheet that we want to open (sheetName)
+         */
         String path = "src/test/resources/Vytracktestdata.xlsx";
         String sheetName = "QA3-short";
         ExcelUtil qa3Short = new ExcelUtil(path, sheetName);

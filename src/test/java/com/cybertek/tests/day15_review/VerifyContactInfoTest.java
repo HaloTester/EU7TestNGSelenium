@@ -1,9 +1,6 @@
 package com.cybertek.tests.day15_review;
 
-import com.cybertek.pages.ContactsInfoPage;
-import com.cybertek.pages.ContactsPage;
-import com.cybertek.pages.DashboardPage;
-import com.cybertek.pages.LoginPage;
+import com.cybertek.pages.*;
 import com.cybertek.tests.TestBase;
 import com.cybertek.utilities.ConfigurationReader;
 import org.checkerframework.checker.units.qual.C;
